@@ -8,6 +8,7 @@ function ThemeWrapper({ children }) {
 
 const Wrapper = styled.div`
   background-color: ${COLORS.primary};
+  color: ${COLORS.white};
 `;
 
 export default ThemeWrapper;

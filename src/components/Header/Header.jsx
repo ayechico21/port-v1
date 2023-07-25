@@ -3,13 +3,15 @@ import styled from "styled-components";
 import Navbar from "../Navbar";
 import ThemeWrapper from "../ThemeWrapper";
 import MaxWidthContainer from "../MaxWidthContainer";
+import Intro from "../Intro";
 
 function Header() {
   return (
     <ThemeWrapper>
       <MaxWidthContainer>
         <Wrapper>
-          <Navbar></Navbar>
+          <Navbar />
+          <Intro />
         </Wrapper>
       </MaxWidthContainer>
     </ThemeWrapper>

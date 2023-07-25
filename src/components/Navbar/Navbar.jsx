@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { COLORS } from "../../constants";
-
+import Link from "../Link";
 function Navbar() {
   return (
     <Wrapper>
@@ -32,8 +31,5 @@ const LinkList = styled.ul`
   gap: 10px;
   list-style: none;
 `;
-const Link = styled.a`
-  text-decoration: none;
-  color: ${COLORS.white};
-`;
+
 export default Navbar;
