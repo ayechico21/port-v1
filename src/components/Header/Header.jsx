@@ -18,6 +18,8 @@ function Header() {
   );
 }
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  padding: 30px;
+`;
 
 export default Header;

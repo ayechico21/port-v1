@@ -1,11 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 import Link from "../Link";
+import Highlight from "../Highlight";
 function Navbar() {
   return (
     <Wrapper>
       <UserName>
-        <Link href="#">@ayechico21</Link>
+        <Link href="#">
+          <Highlight>@ayechico21</Highlight>
+        </Link>
       </UserName>
       <LinkList>
         <li>
@@ -21,9 +24,12 @@ function Navbar() {
 const Wrapper = styled.nav`
   display: flex;
   align-items: baseline;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
 `;
 const UserName = styled.h1`
   margin-right: auto;
+  font-size: 2rem;
 `;
 
 const LinkList = styled.ul`
