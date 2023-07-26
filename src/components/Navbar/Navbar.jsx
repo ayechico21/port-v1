@@ -7,7 +7,7 @@ function Navbar() {
     <Wrapper>
       <UserName>
         <Link href="#">
-          <Highlight>@ayechico21</Highlight>
+          @<Highlight>ayeChico21</Highlight>
         </Link>
       </UserName>
       <LinkList>

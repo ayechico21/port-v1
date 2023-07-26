@@ -5,7 +5,7 @@ import { COLORS } from "../../constants";
 function Highlight(props) {
   return <Wrapper {...props} />;
 }
-const Wrapper = styled.div`
+const Wrapper = styled.span`
   color: ${COLORS.plum};
 `;
 export default Highlight;

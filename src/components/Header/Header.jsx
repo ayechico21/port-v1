@@ -19,7 +19,7 @@ function Header() {
 }
 
 const Wrapper = styled.div`
-  padding: 30px;
+  padding: 10px;
 `;
 
 export default Header;
