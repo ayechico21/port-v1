@@ -18,7 +18,7 @@ function Header() {
   );
 }
 
-const Wrapper = styled.div`
+const Wrapper = styled.section`
   padding: 10px;
 `;
 
