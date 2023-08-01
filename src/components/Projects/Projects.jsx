@@ -30,6 +30,7 @@ const Wrapper = styled.section`
 `;
 const ProjectWrapper = styled.div`
   display: flex;
+  gap: 10px;
 `;
 
 export default Projects;
