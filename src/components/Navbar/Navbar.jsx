@@ -15,7 +15,7 @@ function Navbar() {
           <Link href="#">Projects</Link>
         </li>
         <li>
-          <Link href="#">Hire Me!</Link>
+          <Link href="#">Contact</Link>
         </li>
       </LinkList>
     </Wrapper>
