@@ -10,7 +10,7 @@ function Projects() {
     <ThemeWrapper>
       <MaxWidthContainer>
         <Wrapper>
-          <h1>Projects</h1>
+          <Heading>Projects</Heading>
           <ProjectWrapper>
             {projects.map((project) => (
               <Project key={project.id} {...project} />
@@ -30,7 +30,11 @@ const Wrapper = styled.section`
 `;
 const ProjectWrapper = styled.div`
   display: flex;
-  gap: 10px;
+  gap: 20px;
+`;
+
+const Heading = styled.h2`
+  margin-bottom: 20px;
 `;
 
 export default Projects;

@@ -19,7 +19,6 @@ function About() {
             <br />
             Known to SQL and noSQL databases as well
           </p>
-          me
           <p>Currently building in Next.js</p>
           <h4>
             Connect with <Highlight>me</Highlight>
@@ -40,7 +39,7 @@ const Wrapper = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 40px 0;
 `;
 const Main = styled.div`
   display: flex;

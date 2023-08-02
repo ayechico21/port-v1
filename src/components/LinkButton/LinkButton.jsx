@@ -10,5 +10,10 @@ const Wrapper = styled.a`
   background-color: ${COLORS.plum};
   text-decoration: none;
   padding: 5px 10px;
+  border-radius: 5px;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
 `;
 export default LinkButton;
