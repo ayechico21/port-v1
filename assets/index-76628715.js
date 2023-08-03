@@ -57,53 +57,53 @@ Error generating stack: `+o.message+`
   }
 `;function Vl(e){return _.jsx(Tm,{...e})}const Tm=B.span`
   color: ${qt.plum};
-`;function Lm(){return _.jsx(Qu,{children:_.jsxs(jm,{children:[_.jsx(Xf,{imgsrc:"src/assets/BigShoesTorso.png"}),_.jsxs(Rm,{children:[_.jsxs("h2",{children:["About ",_.jsx(Vl,{children:"ME"})]}),_.jsxs("p",{children:["A frontend web Developer well versed in JavaScript and web technologies like React, CSS.",_.jsx("br",{}),"Known to SQL and noSQL databases as well"]}),_.jsx("p",{children:"Currently building in Next.js"}),_.jsxs("h4",{children:["Connect with ",_.jsx(Vl,{children:"me"})]}),_.jsxs($m,{children:[_.jsx(ar,{href:"https://github.com/ayechico21",children:_.jsx("svg",{xmlns:"http://www.w3.org/2000/svg",width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round",children:_.jsx("path",{d:"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"})})}),_.jsx(ar,{href:"https://www.linkedin.com/in/ayechico21/",children:_.jsxs("svg",{xmlns:"http://www.w3.org/2000/svg",width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round",children:[_.jsx("path",{d:"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"}),_.jsx("rect",{x:"2",y:"9",width:"4",height:"12"}),_.jsx("circle",{cx:"4",cy:"4",r:"2"})]})}),_.jsx(ar,{href:"https://X.com/ayechico21",children:_.jsx("svg",{xmlns:"http://www.w3.org/2000/svg",width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round",children:_.jsx("path",{d:"M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"})})})]})]})]})})}const jm=B.section`
+`,Lm="/port-v1/assets/BigShoesTorso-e7a86f7f.png";function jm(){return _.jsx(Qu,{children:_.jsxs(Rm,{children:[_.jsx(Xf,{imgsrc:Lm,imgalt:"character image"}),_.jsxs($m,{children:[_.jsxs("h2",{children:["About ",_.jsx(Vl,{children:"ME"})]}),_.jsxs("p",{children:["A frontend web Developer well versed in JavaScript and web technologies like React, CSS.",_.jsx("br",{}),"Known to SQL and noSQL databases as well"]}),_.jsx("p",{children:"Currently building in Next.js"}),_.jsxs("h4",{children:["Connect with ",_.jsx(Vl,{children:"me"})]}),_.jsxs(Im,{children:[_.jsx(ar,{href:"https://github.com/ayechico21",children:_.jsx("svg",{xmlns:"http://www.w3.org/2000/svg",width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round",children:_.jsx("path",{d:"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"})})}),_.jsx(ar,{href:"https://www.linkedin.com/in/ayechico21/",children:_.jsxs("svg",{xmlns:"http://www.w3.org/2000/svg",width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round",children:[_.jsx("path",{d:"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"}),_.jsx("rect",{x:"2",y:"9",width:"4",height:"12"}),_.jsx("circle",{cx:"4",cy:"4",r:"2"})]})}),_.jsx(ar,{href:"https://X.com/ayechico21",children:_.jsx("svg",{xmlns:"http://www.w3.org/2000/svg",width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round",children:_.jsx("path",{d:"M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"})})})]})]})]})})}const Rm=B.section`
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 40px 0;
-`,Rm=B.div`
+`,$m=B.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
-`,$m=B.article`
+`,Im=B.article`
   display: flex;
   gap: 20px;
   margin-top: 10px;
-`;function Im(e){return _.jsx(Om,{...e})}const Om=B.a`
+`;function Om(e){return _.jsx(Dm,{...e})}const Dm=B.a`
   text-decoration: none;
   color: ${qt.white};
-`;function Dm(){return _.jsx(Mm,{children:_.jsx(Am,{children:_.jsxs(Im,{href:"#",children:["@",_.jsx(Vl,{children:"ayeChico21"})]})})})}const Mm=B.nav`
+`;function Mm(){return _.jsx(Am,{children:_.jsx(Fm,{children:_.jsxs(Om,{href:"#",children:["@",_.jsx(Vl,{children:"ayeChico21"})]})})})}const Am=B.nav`
   display: flex;
   align-items: baseline;
   margin-bottom: 20px;
   font-size: 1.3rem;
-`,Am=B.h1`
+`,Fm=B.h1`
   margin-right: auto;
   font-size: 2rem;
 `;B.ul`
   display: flex;
   gap: 10px;
   list-style: none;
-`;function Zf({children:e}){return _.jsx(Fm,{children:e})}const Fm=B.div`
+`;function Zf({children:e}){return _.jsx(Um,{children:e})}const Um=B.div`
   background-color: ${qt.primary};
   color: ${qt.white};
-`;function Um(){return _.jsxs(Bm,{children:[_.jsxs("main",{children:[_.jsxs(Wm,{children:[_.jsx("p",{children:"Hey 👋"}),_.jsxs("p",{children:["I'm ",_.jsx(Vl,{children:"Maneesh Cheema"})]})]}),_.jsxs(Hm,{children:["Frontend Developer ",_.jsx("br",{})," INDIA 🇮🇳"]}),_.jsx(ar,{href:"https://drive.google.com/drive/folders/1wLR9yNobjXPzZEU1r6WvP2V1wiwUPJJc?usp=sharing",children:"Resume"})]}),_.jsx(Xf,{imgsrc:"src/assets/OpenPeepsLaptop.png",imgalt:"Image with laptop"})]})}const Bm=B.article`
+`,Bm="/port-v1/assets/OpenPeepsLaptop-c2f7de30.png";function Wm(){return _.jsxs(Hm,{children:[_.jsxs("main",{children:[_.jsxs(Vm,{children:[_.jsx("p",{children:"Hey 👋"}),_.jsxs("p",{children:["I'm ",_.jsx(Vl,{children:"Maneesh Cheema"})]})]}),_.jsxs(Qm,{children:["Frontend Developer ",_.jsx("br",{})," INDIA 🇮🇳"]}),_.jsx(ar,{href:"https://drive.google.com/drive/folders/1wLR9yNobjXPzZEU1r6WvP2V1wiwUPJJc?usp=sharing",children:"Resume"})]}),_.jsx(Xf,{imgsrc:Bm,imgalt:"Image with laptop"})]})}const Hm=B.article`
   display: flex;
   justify-content: space-between;
   font-size: 1.2rem;
-`,Wm=B.div`
+`,Vm=B.div`
   font-size: 2rem;
   line-height: 1.2;
   margin: 30px 0px;
-`,Hm=B.p`
+`,Qm=B.p`
   font-size: 1.3rem;
   line-height: 1.2;
   margin-bottom: 10px;
   margin: 30px 0px;
-`;function Vm(){return _.jsx(Zf,{children:_.jsx(Qu,{children:_.jsxs(Qm,{children:[_.jsx(Dm,{}),_.jsx(Um,{})]})})})}const Qm=B.section`
+`;function Km(){return _.jsx(Zf,{children:_.jsx(Qu,{children:_.jsxs(Ym,{children:[_.jsx(Mm,{}),_.jsx(Wm,{})]})})})}const Ym=B.section`
   padding: 10px;
-`,Km=[{id:crypto.randomUUID(),name:"A",description:"I know, there should be atleast 3 projects in your portfolio before applying to jobs. I'm working on it!",links:{source:"#",live:"#"},imgsrc:"src/assets/underConstruction.avif"},{id:crypto.randomUUID(),name:"B",description:"I know, there should be atleast 3 projects in your portfolio before applying to jobs. I'm working on it!",links:{source:"#",live:"#"},imgsrc:"src/assets/underConstruction.avif"},{id:crypto.randomUUID(),name:"C",description:"I know, there should be atleast 3 projects in your portfolio before applying to jobs. I'm working on it!",links:{source:"#",live:"#"},imgsrc:"src/assets/underConstruction.avif"}];function Ym({name:e,description:t,links:n,imgsrc:r}){return _.jsxs(Gm,{children:[_.jsx(Xm,{src:r,alt:""}),_.jsxs(Zm,{children:[_.jsx(qm,{children:e}),_.jsx("div",{children:t})]}),_.jsx(Jm,{children:Object.keys(n).map(l=>_.jsx(ar,{href:n[l],children:l},l))})]})}const Gm=B.article`
+`,Gm=[{id:crypto.randomUUID(),name:"A",description:"I know, there should be atleast 3 projects in your portfolio before applying to jobs. I'm working on it!",links:{source:"#",live:"#"},imgsrc:"src/assets/underConstruction.avif"},{id:crypto.randomUUID(),name:"B",description:"I know, there should be atleast 3 projects in your portfolio before applying to jobs. I'm working on it!",links:{source:"#",live:"#"},imgsrc:"src/assets/underConstruction.avif"},{id:crypto.randomUUID(),name:"C",description:"I know, there should be atleast 3 projects in your portfolio before applying to jobs. I'm working on it!",links:{source:"#",live:"#"},imgsrc:"src/assets/underConstruction.avif"}],Xm="/port-v1/assets/underConstruction-e1c91f8d.avif";function Zm({name:e,description:t,links:n,imgsrc:r}){return _.jsxs(Jm,{children:[_.jsx(qm,{src:Xm,alt:""}),_.jsxs(bm,{children:[_.jsx(t0,{children:e}),_.jsx("div",{children:t})]}),_.jsx(e0,{children:Object.keys(n).map(l=>_.jsx(ar,{href:n[l],children:l},l))})]})}const Jm=B.article`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -112,24 +112,24 @@ Error generating stack: `+o.message+`
   border-radius: 10px;
   overflow: hidden;
   padding-bottom: 20px;
-`,Xm=B.img`
+`,qm=B.img`
   max-width: 400px;
-`,Zm=B.div`
+`,bm=B.div`
   padding: 20px;
-`,Jm=B.div`
+`,e0=B.div`
   display: flex;
   width: 100%;
   justify-content: space-evenly;
-`,qm=B.div`
+`,t0=B.div`
   color: ${qt.plum};
-`;function bm(){return _.jsx(Zf,{children:_.jsx(Qu,{children:_.jsxs(e0,{children:[_.jsx(n0,{children:"Projects"}),_.jsx(t0,{children:Km.map(e=>_.jsx(Ym,{...e},e.id))})]})})})}const e0=B.section`
+`;function n0(){return _.jsx(Zf,{children:_.jsx(Qu,{children:_.jsxs(r0,{children:[_.jsx(o0,{children:"Projects"}),_.jsx(l0,{children:Gm.map(e=>_.jsx(Zm,{...e},e.id))})]})})})}const r0=B.section`
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px 0;
-`,t0=B.div`
+`,l0=B.div`
   display: flex;
   gap: 20px;
-`,n0=B.h2`
+`,o0=B.h2`
   margin-bottom: 20px;
-`;function r0(){return _.jsxs(_.Fragment,{children:[_.jsx(Vm,{}),_.jsx(Lm,{}),_.jsx(bm,{})]})}Ko.createRoot(document.getElementById("root")).render(_.jsx(En.StrictMode,{children:_.jsx(r0,{})}));
+`;function i0(){return _.jsxs(_.Fragment,{children:[_.jsx(Km,{}),_.jsx(jm,{}),_.jsx(n0,{})]})}Ko.createRoot(document.getElementById("root")).render(_.jsx(En.StrictMode,{children:_.jsx(i0,{})}));
