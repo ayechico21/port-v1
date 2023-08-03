@@ -10,14 +10,14 @@ function Navbar() {
           @<Highlight>ayeChico21</Highlight>
         </Link>
       </UserName>
-      <LinkList>
+      {/*<LinkList>
         <li>
           <Link href="#">Projects</Link>
         </li>
         <li>
           <Link href="#">Contact</Link>
         </li>
-      </LinkList>
+  </LinkList>*/}
     </Wrapper>
   );
 }

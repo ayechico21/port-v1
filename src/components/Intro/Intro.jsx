@@ -17,7 +17,9 @@ function Intro() {
         <Text>
           Frontend Developer <br /> INDIA 🇮🇳
         </Text>
-        <LinkButton href="#">Resume</LinkButton>
+        <LinkButton href="https://drive.google.com/drive/folders/1wLR9yNobjXPzZEU1r6WvP2V1wiwUPJJc?usp=sharing">
+          Resume
+        </LinkButton>
       </main>
       <ImageWrapper
         imgsrc="src/assets/OpenPeepsLaptop.png"
