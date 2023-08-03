@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 import LinkButton from "../LinkButton";
 import ImageWrapper from "../ImageWrapper";
 import Highlight from "../Highlight";
-
+import OpenPeepsLaptop from "../../assets/OpenPeepsLaptop.png";
 function Intro() {
   return (
     <Wrapper>
@@ -22,7 +22,7 @@ function Intro() {
         </LinkButton>
       </main>
       <ImageWrapper
-        imgsrc="src/assets/OpenPeepsLaptop.png"
+        imgsrc={OpenPeepsLaptop}
         imgalt="Image with laptop"
       ></ImageWrapper>
     </Wrapper>

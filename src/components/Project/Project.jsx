@@ -1,13 +1,13 @@
 import React from "react";
 import LinkButton from "../LinkButton";
 import { styled } from "styled-components";
-import ImageWrapper from "../ImageWrapper/ImageWrapper";
 import { COLORS } from "../../constants";
-
+import WIP from "../../assets/underConstruction.avif";
 function Project({ name, description, links, imgsrc }) {
   return (
     <Wrapper>
-      <Image src={imgsrc} alt="" />
+      {/* <Image src={imgsrc} alt="" /> */}
+      <Image src={WIP} alt="" />
       <Description>
         <Name>{name}</Name>
         <div>{description}</div>
