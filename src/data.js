@@ -5,7 +5,7 @@ export const projects = [
     description:
       "I know, there should be atleast 3 projects in your portfolio before applying to jobs. I'm working on it!",
     links: {
-      github: "#",
+      source: "#",
       live: "#",
     },
     imgsrc: "src/assets/underConstruction.avif",
@@ -16,7 +16,7 @@ export const projects = [
     description:
       "I know, there should be atleast 3 projects in your portfolio before applying to jobs. I'm working on it!",
     links: {
-      github: "#",
+      source: "#",
       live: "#",
     },
     imgsrc: "src/assets/underConstruction.avif",
@@ -27,7 +27,7 @@ export const projects = [
     description:
       "I know, there should be atleast 3 projects in your portfolio before applying to jobs. I'm working on it!",
     links: {
-      github: "#",
+      source: "#",
       live: "#",
     },
     imgsrc: "src/assets/underConstruction.avif",
