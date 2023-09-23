@@ -4,12 +4,14 @@ import ImageWrapper from "../ImageWrapper";
 import MaxWidthContainer from "../MaxWidthContainer";
 import LinkButton from "../LinkButton";
 import Highlight from "../Highlight";
-import BigShoesTorse from "../../assets/BigShoesTorso.png";
 function About() {
   return (
     <MaxWidthContainer>
       <Wrapper>
-        <ImageWrapper imgsrc={BigShoesTorse} imgalt="character image" />
+        <ImageWrapper
+          imgsrc={new URL("/images/BigShoesTorso.png", import.meta.url).href}
+          imgalt="character image"
+        />
         <Main>
           <h2>
             About <Highlight>ME</Highlight>

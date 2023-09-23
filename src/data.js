@@ -8,7 +8,8 @@ export const projects = [
       source: "https://github.com/ayechico21/epWordle",
       live: "https://ayechico21.github.io/epWordle/",
     },
-    imgsrc: "/images/wordle.png",
+
+    imgsrc: new URL("/images/wordle.png", import.meta.url).href,
   },
   {
     id: crypto.randomUUID(),
@@ -19,7 +20,7 @@ export const projects = [
       source: "https://github.com/ayechico21/box-office",
       live: "https://ayechico21.github.io/box-office/#/",
     },
-    imgsrc: "/images/boxOffice.png",
+    imgsrc: new URL("/images/boxOffice.png", import.meta.url).href,
   },
   {
     id: crypto.randomUUID(),
@@ -30,6 +31,7 @@ export const projects = [
       source: "https://github.com/ayechico21/ticTacToe",
       live: "https://tictactoe21.surge.sh/",
     },
-    imgsrc: "/images/ticTacToe.png",
+
+    imgsrc: new URL("/images/ticTacToe.png", import.meta.url).href,
   },
 ];
