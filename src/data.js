@@ -1,35 +1,35 @@
 export const projects = [
   {
     id: crypto.randomUUID(),
-    name: "A",
+    name: "epWordle",
     description:
-      "I know, there should be atleast 3 projects in your portfolio before applying to jobs. I'm working on it!",
+      "A customized version of wordle game with ability to change word length, tries and include features like toast notifications, game sound and modal.",
     links: {
-      source: "#",
-      live: "#",
+      source: "https://github.com/ayechico21/epWordle",
+      live: "https://ayechico21.github.io/epWordle/",
     },
-    imgsrc: "src/assets/underConstruction.avif",
+    imgsrc: "public/projectImages/wordle.png",
   },
   {
     id: crypto.randomUUID(),
-    name: "B",
+    name: "BoxOffice",
     description:
-      "I know, there should be atleast 3 projects in your portfolio before applying to jobs. I'm working on it!",
+      "Showcases show and actors information fetched from tvMaze API. User can also bookmark their favorites.",
     links: {
-      source: "#",
-      live: "#",
+      source: "https://github.com/ayechico21/box-office",
+      live: "https://ayechico21.github.io/box-office/#/",
     },
-    imgsrc: "src/assets/underConstruction.avif",
+    imgsrc: "public/projectImages/boxOffice.png",
   },
   {
     id: crypto.randomUUID(),
-    name: "C",
+    name: "Tic Tac Toe",
     description:
-      "I know, there should be atleast 3 projects in your portfolio before applying to jobs. I'm working on it!",
+      "Classic game made availble on the web. Players can track move history as well.",
     links: {
-      source: "#",
-      live: "#",
+      source: "https://github.com/ayechico21/ticTacToe",
+      live: "https://tictactoe21.surge.sh/",
     },
-    imgsrc: "src/assets/underConstruction.avif",
+    imgsrc: "public/projectImages/ticTacToe.png",
   },
 ];

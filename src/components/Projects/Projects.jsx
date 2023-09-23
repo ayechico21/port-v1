@@ -3,7 +3,7 @@ import ThemeWrapper from "../ThemeWrapper";
 import MaxWidthContainer from "../MaxWidthContainer";
 import { styled } from "styled-components";
 import { projects } from "../../data";
-import Project from "../Project/Project";
+import Project from "../Project";
 
 function Projects() {
   return (

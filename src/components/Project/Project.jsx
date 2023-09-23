@@ -2,15 +2,16 @@ import React from "react";
 import LinkButton from "../LinkButton";
 import { styled } from "styled-components";
 import { COLORS } from "../../constants";
-import WIP from "../../assets/underConstruction.avif";
+
 function Project({ name, description, links, imgsrc }) {
   return (
     <Wrapper>
-      {/* <Image src={imgsrc} alt="" /> */}
-      <Image src={WIP} alt="" />
+      <ImageWrapper>
+        <Image src={imgsrc} alt="" />
+      </ImageWrapper>
       <Description>
         <Name>{name}</Name>
-        <div>{description}</div>
+        <Info>{description}</Info>
       </Description>
       <LinkBar>
         {Object.keys(links).map((key) => (
@@ -24,6 +25,7 @@ function Project({ name, description, links, imgsrc }) {
 }
 
 const Wrapper = styled.article`
+  flex: 1 1 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,18 +35,41 @@ const Wrapper = styled.article`
   overflow: hidden;
   padding-bottom: 20px;
 `;
+const ImageWrapper = styled.div`
+  height: 300px;
+  width: 100%;
+`;
 const Image = styled.img`
-  max-width: 400px;
+  /**object fit requires a defined height and width of image */
+  height: 100%;
+  width: 100%;
+
+  object-fit: cover; /**fill the image container with image */
 `;
 const Description = styled.div`
   padding: 20px;
+  flex-grow: 1; /**fill remaining space in project wrapper */
+
+  /**for name and info */
+  display: flex;
+  flex-direction: column;
 `;
 const LinkBar = styled.div`
+  /**position links */
   display: flex;
-  width: 100%;
+  width: 100%; /**fill the containter horizontally */
   justify-content: space-evenly;
+
+  margin-top: auto; /**make linkbar stick to bottom on container */
 `;
 const Name = styled.div`
   color: ${COLORS.plum};
+`;
+const Info = styled.p`
+  flex-grow: 1; /**Fill the remaining space in description */
+
+  /**center text in p */
+  display: flex;
+  align-items: center;
 `;
 export default Project;
