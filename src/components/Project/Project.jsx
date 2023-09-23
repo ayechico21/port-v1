@@ -4,6 +4,7 @@ import { styled } from "styled-components";
 import { COLORS } from "../../constants";
 
 function Project({ name, description, links, imgsrc }) {
+  console.log(imgsrc);
   return (
     <Wrapper>
       <ImageWrapper>
